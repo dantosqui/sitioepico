@@ -1,0 +1,102 @@
+
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+nav{
+    margin-bottom: 5%;
+    height: 200px;
+    border: 1px black solid;
+}
+
+
+/*navegador 1*/
+.nav1 li{
+    list-style: none;
+    float: left;
+    margin-left: 7%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+.nav1{
+    padding: 8% 0px 0% 0px;
+    background-color: rgb(238, 243, 232);
+}
+.nav1 a{
+    text-decoration: none;
+    transition: 1.2s all ease;
+    padding: 2px 20px 2px 20px;
+    background: rgb(167, 228, 148);
+}
+.nav1 a:hover{
+    border-radius:40px;
+}
+.nav1 a:active{
+    color: black;
+
+}
+.nav1 a:visited{
+    background: rgb(143, 196, 128);
+}
+
+
+
+/*navegador 2*/
+
+.nav2{
+    background-color: rgb(69, 69, 202);
+    width: 10%;
+    height: 500px;
+}
+.nav2 li{
+    margin-top: 30%;
+    margin-bottom:30%;
+    margin-left: 10px;
+    list-style: none;
+}
+.nav2 a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    size:3em;
+    border-radius: 10px;
+    border: 3px solid rgb(252, 188, 50);
+    background-color: rgb(252, 188, 50);
+    transition: 0.3s all ease-in-out;
+}
+.nav2 a:hover{
+    background-color: rgb(179, 133, 35);
+    border-color: rgb(179, 133, 35);
+}
+
+
+
+/*navegador 3*/
+
+.nav3{
+
+    height:100px;
+    background-color: rgb(221, 206, 182);
+}
+
+.nav3 li{
+    list-style: none;
+    float: left;
+    margin-left: 10%;
+    margin-top:40px;
+    
+}
+.nav3 a{
+    color:blue;
+    text-decoration: underline overline wavy black;
+    transition: 0.7s all ease-in-out;
+}
+.nav3 a:hover{
+    color:rgb(7, 7, 136);
+    text-decoration:none;
+    font-size:1.5em;
+    
+}
+.nav3 a:active{
+    font-size:2em;
+}
